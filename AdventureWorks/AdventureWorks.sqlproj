@@ -592,5 +592,17 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Local.publish.xml" />
+    <None Include="Stage.publish.xml" />
+    <None Include="Production.publish.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <PostDeploy Include="Script.PostDeployment1.sql" />
+  </ItemGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="Environment">
+      <DefaultValue>
+      </DefaultValue>
+      <Value>$(SqlCmdVar__1)</Value>
+    </SqlCmdVariable>
   </ItemGroup>
 </Project>
