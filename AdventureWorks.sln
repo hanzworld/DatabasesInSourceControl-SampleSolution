@@ -5,6 +5,10 @@ VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdventureWorks", "AdventureWorks\AdventureWorks.sqlproj", "{491D5EEF-42AD-4013-84D5-734DEE71B550}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyDatabaseUnitTests", "MyDatabaseUnitTests\MyDatabaseUnitTests.csproj", "{B26D5DB2-928D-454F-915C-523CD0DCD8A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomRules", "CustomRules\CustomRules.csproj", "{09C09E20-8FA7-487A-B5C9-9AA61B1B6D47}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +21,14 @@ Global
 		{491D5EEF-42AD-4013-84D5-734DEE71B550}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{491D5EEF-42AD-4013-84D5-734DEE71B550}.Release|Any CPU.Build.0 = Release|Any CPU
 		{491D5EEF-42AD-4013-84D5-734DEE71B550}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B26D5DB2-928D-454F-915C-523CD0DCD8A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B26D5DB2-928D-454F-915C-523CD0DCD8A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B26D5DB2-928D-454F-915C-523CD0DCD8A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B26D5DB2-928D-454F-915C-523CD0DCD8A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09C09E20-8FA7-487A-B5C9-9AA61B1B6D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09C09E20-8FA7-487A-B5C9-9AA61B1B6D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09C09E20-8FA7-487A-B5C9-9AA61B1B6D47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09C09E20-8FA7-487A-B5C9-9AA61B1B6D47}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
